@@ -1,13 +1,14 @@
 {
-  "name": "template",
+  "name": "weather-app",
   "version": "1.0.0",
-  "description": "WebPack",
+  "description": "Weather forecast app using the Visual Crossing API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "deploy": "git subtree push --prefix dist origin gh-pages",
+    "lint": "eslint src/",
     "format": "prettier --write .",
     "check-format": "prettier --check ."
   },

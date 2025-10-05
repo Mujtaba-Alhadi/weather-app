@@ -1,2 +1,3 @@
-# webpack
-Webpack Template
+# Weather App
+
+Weather forecast app using the Visual Crossing API
