@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6dd5fa, #2980b9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+form {
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+  padding: 0.8rem 1.2rem;
+  border-radius: 25px;
+  border: none;
+  width: 300px;
+  outline: none;
+  font-size: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.address {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.temp {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.feelslike,
+.humidity,
+.pressure,
+.sunrise,
+.sunset {
+  font-size: 1.3rem;
+  margin: 0.7rem 0;
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 300px;
+}
+
+.toggle-temp {
+  background: #ffffff22;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.toggle-temp:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.errDiv {
+  font-size: 1.3rem;
+}
+
+.hide {
+  display: none;
+}
